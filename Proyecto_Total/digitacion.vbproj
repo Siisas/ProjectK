@@ -237,6 +237,7 @@
     <Content Include="RRHH\AsignacionHorariosValidacion.aspx" />
     <Content Include="RRHH\Aspirante.aspx" />
     <Content Include="RRHH\Cafeteria.aspx" />
+    <Content Include="RRHH\CafeteriaCRM.aspx" />
     <Content Include="RRHH\CaidaSistema.aspx" />
     <Content Include="RRHH\centinela.aspx" />
     <Content Include="RRHH\checkdoc.aspx" />
@@ -254,6 +255,7 @@
     <Content Include="RRHH\MesCafeteria.aspx" />
     <Content Include="RRHH\modificaop.aspx" />
     <Content Include="RRHH\novedades.aspx" />
+    <Content Include="RRHH\Plantilla.aspx" />
     <Content Include="RRHH\procesosolicdoc.aspx" />
     <Content Include="RRHH\Productividad.aspx" />
     <Content Include="RRHH\ProductividadVoz.aspx" />
@@ -1285,6 +1287,13 @@
       <DependentUpon>Cafeteria.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
+    <Compile Include="RRHH\CafeteriaCRM.aspx.designer.vb">
+      <DependentUpon>CafeteriaCRM.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RRHH\CafeteriaCRM.aspx.vb">
+      <DependentUpon>CafeteriaCRM.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
     <Compile Include="RRHH\CaidaSistema.aspx.designer.vb">
       <DependentUpon>CaidaSistema.aspx</DependentUpon>
     </Compile>
@@ -1403,6 +1412,13 @@
     <Compile Include="RRHH\novedades.aspx.vb">
       <DependentUpon>novedades.aspx</DependentUpon>
       <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="RRHH\Plantilla.aspx.designer.vb">
+      <DependentUpon>Plantilla.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RRHH\Plantilla.aspx.vb">
+      <DependentUpon>Plantilla.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="RRHH\procesosolicdoc.aspx.designer.vb">
       <DependentUpon>procesosolicdoc.aspx</DependentUpon>

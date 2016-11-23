@@ -7,7 +7,7 @@
                 Obj_General.estado = CType(HttpContext.Current.Session("permisos"), clsusuario).perfil
                 Session("dtsSeguridad") = Obj_General.consultarmenu()
             End If
-            Seguridad()
+            'Seguridad()
             Menu_Load()
             Lbl_Usuario.Text = CType(Session("permisos"), clsusuario).usuario
             Lbl_Nombre.Text = CType(Session("permisos"), clsusuario).nombre
